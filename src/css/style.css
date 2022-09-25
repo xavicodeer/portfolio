@@ -30,7 +30,7 @@ html {
 	height: 5vh;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	background-color: var(--7-color);
 }
 
@@ -61,16 +61,17 @@ html {
 }
 
 .contacts {
-	width: 300px;
+	width: 200px;
 	margin: var(--fs-paragraph) 0;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .contacts i {
-	font-size: var(--fs-subtitle);
+	font-size: var(--fs-paragraph);
 	color: var(--3-color);
 }
+
 .contacts i:hover {
 	color: #f8f8f8ae;
 }
@@ -148,7 +149,7 @@ html {
 }
 
 .right {
-	background-image: url(../img/iso-glass.png);
+	background-image: url(https://i.postimg.cc/mgP4BMSz/iso-box.png);
 	background-position: left;
 	background-repeat: no-repeat;
 	background-size: cover;
